@@ -1,0 +1,38 @@
+.img{
+    background: url('https://cdn-images-1.medium.com/max/2000/1*ee9Ji2ToUxeYfj3YUQ1xsA.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:700px;
+
+    
+}
+.info{
+    margin-top: 50px;
+}
+#overlay{
+    width: 100%;
+    height:100%;
+    background: rgba(0,0,0,0.1);
+    z-index:0;
+}
+
+#works{
+    top:350px;
+    position: relative;
+    
+}
+#works h4{
+   
+    font-weight: bold;
+    
+}
+.mycards:hover{
+       transform: scale(1.05);
+       transition: all 200ms linear;
+}
+.workhead{
+      width:40%;
+      background: rgba(0,0,0,0.1);
+      padding: 2px;
+      border-bottom-right-radius: 50%;
+}
